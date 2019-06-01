@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c4f4e515-bd96-48e1-b80a-f054b6df81bd" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://api.cba.am/exchangerates.asmx?op=ExchangeRatesByDate" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="exchangerates.wsdl" MetadataType="Wsdl" ID="2a5b2cfc-f6a8-4664-9d09-ed88b6532c4d" SourceId="1" SourceUrl="http://api.cba.am/exchangerates.asmx?wsdl" />
+    <MetadataFile FileName="exchangerates.disco" MetadataType="Disco" ID="0891d818-b021-4d6b-a4e2-b0bd4db48337" SourceId="1" SourceUrl="http://api.cba.am/exchangerates.asmx?disco" />
+    <MetadataFile FileName="ExchangeRatesDS.xsd" MetadataType="Schema" ID="ed1e4caf-985c-4715-9218-7a8462de0531" SourceId="1" SourceUrl="http://api.cba.am/exchangerates.asmx?schema=ExchangeRatesDS" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
